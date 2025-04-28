@@ -76,3 +76,11 @@ print(a < b)    # False
 print(a >= b)   # True
 print(a <= b)   # False
 """
+
+# Logical Operators (not, and, or)
+a = 10
+b = 3
+
+print(not (a > b))          # False => It's negate the value True <=> False
+print((a > b) and (b < a))  # True => Every condition should be true
+print((a > b) or (a < b))   # True => Only one conditon should be true
