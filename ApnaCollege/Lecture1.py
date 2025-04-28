@@ -63,3 +63,16 @@ num **= 3   # num = num ** 3
 
 print(num) 
 """
+
+# Relational / Comparison Operators (==, !=, >, <, >=, <=)
+"""
+a = 10
+b = 3
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False
+"""
