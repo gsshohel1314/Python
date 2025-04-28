@@ -39,6 +39,7 @@ print(c)
 
 # Type of Operators
 # Arithmetic Operators (+, -, *, /, %, **)
+"""
 a = 10
 b = 3
 
@@ -48,3 +49,17 @@ print(a * b)
 print(a / b)
 print(a % b)
 print(a ** b)
+"""
+
+# Assignment Operators (=, +=, -=, *=, /=, %=, **=)
+"""
+num = 10
+# num += 3    # num = num + 3
+# num -= 3    # num = num - 3
+# num *= 3    # num = num * 3
+# num /= 3    # num = num / 3
+# num %= 3    # num = num % 3
+num **= 3   # num = num ** 3
+
+print(num) 
+"""
