@@ -78,9 +78,24 @@ print(a <= b)   # False
 """
 
 # Logical Operators (not, and, or)
+"""
 a = 10
 b = 3
 
 print(not (a > b))          # False => It's negate the value True <=> False
 print((a > b) and (b < a))  # True => Every condition should be true
 print((a > b) or (a < b))   # True => Only one conditon should be true
+"""
+
+# Type Conversion (Autometic conversion by Python interpretor)
+a = 2
+b = 4.25
+sum = a + b # 2.0 + 4.25 => 6.25
+
+print(sum)
+
+c = "5"
+d = 3.53
+print(c + d) # TypeError: can only concatenate str (not "float") to str
+
+# Type Casting (Manual conversion by user)
