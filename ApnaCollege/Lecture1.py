@@ -101,6 +101,7 @@ print(c + d) # TypeError: can only concatenate str (not "float") to str
 """
 
 # Type Casting (Manual conversion by user)
+"""
 a = int("2")
 b = float(4)
 c = 3.25
@@ -112,3 +113,14 @@ print(sum1)
 
 print(type(b))
 print(sum2)
+"""
+
+# Input statement
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+marks = float(input("Enter your marks: "))
+
+print("Welcome", name)
+print("age = ", age)
+print("marks = ", marks)
+print("Hello", name, "your age is", age, "and your marks are", marks)
