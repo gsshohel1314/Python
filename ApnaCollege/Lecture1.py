@@ -116,6 +116,7 @@ print(sum2)
 """
 
 # Input statement
+"""
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 marks = float(input("Enter your marks: "))
@@ -124,3 +125,38 @@ print("Welcome", name)
 print("age = ", age)
 print("marks = ", marks)
 print("Hello", name, "your age is", age, "and your marks are", marks)
+"""
+
+# Practice
+# 1.  Write a program to take two numbers as input and print their sum.
+"""
+first_number = int(input("Enter first number: "))
+second_number = int(input("Enter second number: "))
+sum = first_number + second_number
+
+print(first_number, "+", second_number, "=", sum)
+"""
+
+# 2. Write a program to input side of a square and print its area.
+"""
+side = float(input("Enter side of square: "))
+area = side * side
+
+print("Area of square is", area)
+"""
+
+# 3. Write a program to input 2 floating point numbers and print their average.
+"""
+float1 = float(input("Enter first floating point number: "))
+float2 = float(input("Enter second floating point number: "))
+
+average = (float1 + float2) / 2
+
+print("Average of", float1, "and", float2, "is", average)
+"""
+
+# 4. Write a program to input 2 integer numbers a and b. Print True if a is greater than or equal to b, otherwise print False.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print(a >= b)
