@@ -14,8 +14,16 @@ print(str5)
 
 # Basic string operations
 # 1. Concatenation
+"""
 first_name = "Shohel"
 last_name = "Rana"
 full_name = first_name + " " + last_name
 
 print(full_name)
+"""
+
+# 2. Length of a string
+str4 = "This is a string."
+length = len(str4)
+
+print(length)
