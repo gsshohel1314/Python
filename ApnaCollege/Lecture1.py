@@ -88,6 +88,7 @@ print((a > b) or (a < b))   # True => Only one conditon should be true
 """
 
 # Type Conversion (Autometic conversion by Python interpretor)
+"""
 a = 2
 b = 4.25
 sum = a + b # 2.0 + 4.25 => 6.25
@@ -97,5 +98,17 @@ print(sum)
 c = "5"
 d = 3.53
 print(c + d) # TypeError: can only concatenate str (not "float") to str
+"""
 
 # Type Casting (Manual conversion by user)
+a = int("2")
+b = float(4)
+c = 3.25
+sum1 = a + b
+sum2 = b + c
+
+print(type(a))
+print(sum1)
+
+print(type(b))
+print(sum2)
