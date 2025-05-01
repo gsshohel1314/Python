@@ -64,6 +64,7 @@ print(str[:-5]) # Shohel
 """
 
 # String methods
+"""
 str = "i am studying python from ApnaCollege from Youtube"
 print(str.endswith("tube")) # True
 print(str.endswith("app")) # False
@@ -80,4 +81,15 @@ print(str.find("Q")) # -1 (not found)
 
 print(str.count("from")) # 2
 print(str.count("o")) # 5
+"""
 
+# Practice problems
+# 1. WAP to input user's first name & print its length.
+first_name = input("Enter your first name: ")
+length = len(first_name)
+print("Length of your first name is =", length)
+
+# 2. WAP to find the occurrence of '$' in a string.
+str = "$This is a string. $ we are creating it in python $"
+occurrence = str.count("$")
+print("Occurrence of $ is:", occurrence)
