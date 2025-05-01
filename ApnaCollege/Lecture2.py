@@ -23,7 +23,21 @@ print(full_name)
 """
 
 # 2. Length of a string
+"""
 str4 = "This is a string."
 length = len(str4)
 
 print(length)
+"""
+
+# Indexing
+str = "Apna College" # 0 1 2 3 4 5 6 7 8 9 10 11
+print(str[0]) # A
+print(str[1]) # p
+print(str[2]) # n
+print(str[3]) # a
+print(str[4]) # white space
+
+
+# str[4] = "@"  # Error: string object does not support item assignment because strings are immutable
+# print(str)
