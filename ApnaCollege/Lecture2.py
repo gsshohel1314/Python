@@ -31,6 +31,7 @@ print(length)
 """
 
 # Indexing
+"""
 str = "Apna College" # 0 1 2 3 4 5 6 7 8 9 10 11
 print(str[0]) # A
 print(str[1]) # p
@@ -41,3 +42,21 @@ print(str[4]) # white space
 
 # str[4] = "@"  # Error: string object does not support item assignment because strings are immutable
 # print(str)
+"""
+
+# Slicing
+# Positive indexing
+str = "Apna College" # 0 1 2 3 4 5 6 7 8 9 10 11
+print(str[1:4]) # pna
+print(str[5:12]) # College
+print(str[5:len(str)]) # College
+print(str[:4]) # Apna
+print(str[5:]) # College
+
+# Negative indexing
+str = "Shohel Rana" # -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+print(str[-3:len(str)]) # ana
+print(str[-3:]) # ana
+print(str[-11:-5]) # Shohel
+print(str[-4:]) # Rana
+print(str[:-5]) # Shohel
