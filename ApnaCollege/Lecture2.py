@@ -45,6 +45,7 @@ print(str[4]) # white space
 """
 
 # Slicing
+"""
 # Positive indexing
 str = "Apna College" # 0 1 2 3 4 5 6 7 8 9 10 11
 print(str[1:4]) # pna
@@ -60,3 +61,23 @@ print(str[-3:]) # ana
 print(str[-11:-5]) # Shohel
 print(str[-4:]) # Rana
 print(str[:-5]) # Shohel
+"""
+
+# String methods
+str = "i am studying python from ApnaCollege from Youtube"
+print(str.endswith("tube")) # True
+print(str.endswith("app")) # False
+
+print(str.capitalize()) # I am studying python from apnacollege from youtube
+print(str) # Original string remains unchanged
+
+print(str.replace("o", "a")) # i am studying pythan fram ApnaCallege fram Yautube
+print(str.replace("python", "javascript")) # i am studying javascript from ApnaCollege from Youtube
+
+print(str.find("o")) # 18
+print(str.find("from")) #21
+print(str.find("Q")) # -1 (not found)
+
+print(str.count("from")) # 2
+print(str.count("o")) # 5
+
